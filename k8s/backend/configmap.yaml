@@ -5,8 +5,8 @@ metadata:
 data:
   env: |
     MONGO_DSN=mongodb://root:root@mongodb/nest?authSource=admin
-    KAFKA_CLIENT_ID=code-delivery
-    KAFKA_BROKER=pkc-6ojv2.us-west4.gcp.confluent.cloud:9092
+    KAFKA_CLIENT_ID=ifc-code-delivery
+    KAFKA_BROKER=pkc-419q3.us-east4.gcp.confluent.cloud:9092
     KAFKA_CONSUMER_GROUP_ID=code-delivery
-    KAFKA_SASL_USERNAME=VG2RMN6NPZFUGNOG
-    KAFKA_SASL_PASSWORD=XjS5REYU6AUnhkcC9c/xsz1Fc8k1jwxy1lqwdOKA+kw9C8RxbvAra0B4SsVEMtP7
+    KAFKA_SASL_USERNAME=NQIRQZ7QRLV4FN7J
+    KAFKA_SASL_PASSWORD=S91yyyl5cisbZ1pIcljPkuwhdrTwbOdcFumgkT51YdJC4woXHXNIWH5XXXffiLmn
