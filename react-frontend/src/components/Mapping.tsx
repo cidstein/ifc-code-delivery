@@ -8,14 +8,13 @@ import {
   useRef,
   useState,
 } from "react";
-
+import { getCurrentPosition } from "../util/geolocation";
+import { makeCarIcon, makeMarkerIcon, Map } from "../util/map";
+import { Route } from "../util/models";
+import { sample, shuffle } from "lodash";
 import { RouteExistsError } from "../errors/route-exists.error";
 import { useSnackbar } from "notistack";
 import { Navbar } from "./Navbar";
-import { getCurrentPosition } from "../util/geolocation";
-import { Route } from "../util/models";
-import { makeCarIcon, makeMarkerIcon, Map } from "../util/map";
-import { sample, shuffle } from "lodash";
 import io from "socket.io-client";
 
 const API_URL = process.env.REACT_APP_API_URL as string;
